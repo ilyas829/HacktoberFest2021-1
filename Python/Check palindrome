@@ -1,0 +1,11 @@
+def isPalindrome(a):             #Defining a function to check weather the entered string is palindrome or not! 
+    return a == a[::-1]
+ 
+ 
+a =(input("Enter string   "))
+t= isPalindrome(a)              #Function call
+ 
+if (t==True):
+    print(a,"is a palindrome")
+else:
+    print(a,"is NOT a palindrome")
